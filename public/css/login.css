@@ -1,0 +1,64 @@
+body{
+    min-height: 100vh;
+    background-image: url(../../img/fondo_login6.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.title_login{
+    text-align: center;
+    color: #fefefe;
+}
+
+form {
+    
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    text-align: center;
+    background-color: #42455ce3;
+    box-shadow: 0 0 10px 4px rgb(195 187 187);
+}
+
+input[type="email"],
+input[type="password"],
+.button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #b814149e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #279314a1;
+}
+
+#button-back {
+    display: block;
+    margin-top: 10px;
+    color: #fefeff;
+    text-decoration: none;
+}
+
+#button-back:hover {
+    text-decoration: underline;
+}
+  
+/* .buton_registrar{
+    
+ } */
+
+ 

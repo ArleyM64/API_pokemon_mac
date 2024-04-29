@@ -1,0 +1,79 @@
+body {
+    min-height: 100vh;
+    background-image: url(../../img/fondo_login6.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #161543;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFE600;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(226, 220, 245);
+}
+
+
+
+.salir {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    width: 5%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #770000;
+    box-shadow: 0 0 10px 4px rgb(112 35 35);
+    display: block;
+    margin-top: 10px;
+}
+
+.span_index {
+    font-size: 30px;
+}
+
+.contenedor_pokemones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.contenedor_pokemon {
+
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #a40202e3;
+    box-shadow: 0 0 10px 4px rgb(195 187 187);
+    color: rgb(255, 240, 240);
+    flex-wrap: wrap;
+}
+
+.contenedor_pokemon:hover {
+    transform: scale(1.05);
+
+}
+
+.ocultar_id {
+    display: none;
+}

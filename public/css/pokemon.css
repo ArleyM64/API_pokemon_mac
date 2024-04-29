@@ -1,0 +1,78 @@
+
+
+body{
+    min-height: 100%;
+    background-image: url(../../img/fondo7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.contenedor_carta_pokemon {
+    
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0000008f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 0.5s forwards;
+}
+
+.nombre {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #ff0000ab; 
+    box-shadow: 0 0 10px 4px rgb(191, 179, 179);
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: aparecer 0.5s forwards 0.2s;
+    
+}
+
+.habilidades_pokemon {
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #d8a61be3; 
+    box-shadow: 0 0 10px 4px rgb(195 187 187);
+    color: #040404; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+    opacity: 0;
+    transform: translateY(20px);
+    animation: aparecer 0.5s forwards 0.4s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+#pokemon {
+    display: none; /* se oculta el elemento pokemon inicialmente */
+}
+
+.ocultar_id {
+    /* estilos adicionales para elementos con la clase ocultar_id */
+    display: none;
+}
